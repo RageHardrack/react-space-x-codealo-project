@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.mission-card {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  max-width: 300px;
+  margin: 1rem 0rem;
+  background-color: #d0d0d0;
+}
+
+.mission-card:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.mission-card-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.mission-number {
+  background: gray;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: white;
+  margin-left: 10px;
+  min-width: 2rem;
+}
+
+.mission-date {
+  font-size: 0.825rem;
+  color: lightgrey;
+  margin-bottom: 1rem;
+}
+
+.mission-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.mission-card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: chocolate;
+  margin: 0;
+}
